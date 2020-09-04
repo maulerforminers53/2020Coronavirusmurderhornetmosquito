@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+.blink {
+    animation: blinker 2.0s linear infinite;
+    color: red;
+    font-weight: bold;
+      }
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        }
+}
+
+td, a {
+    text-decoration: none;
+    color: red;
+}
+
+#denied {
+    color: red;
+    font-size: 200px;
+    text-decoration: none;
+}
+
+#granted {
+    color: green;
+    font-size: 150px;
+    text-decoration: none;
+}
+
+.blink1 {
+    animation: blinker 2.0s linear infinite;
+    color: green;
+    font-weight: bold;
+      }
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        }
+}
+
+#grantedP {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#grantedLink {
+    color: green;
+    text-decoration: underline;
+}
